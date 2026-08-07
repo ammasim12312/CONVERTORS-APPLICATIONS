@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Operations</title>
+</head>
+<body>
+ <form method="POST">
+     {% csrf_token %}
+     <input type="number" name="num1" style="width:60px;" required>
+     <select for="oper" name="op" required>
+         <option id="oper" value="+">+</option>
+         <option id="oper" value="-">-</option>
+         <option id="oper" value="/">/</option>
+         <option id="oper" value="*">*</option>
+     </select>
+     <input type="number" name="num2" style="width:60px;" required>
+     <button type="submit">=</button>
+     <h2>Result:{{result}}</h2>
+
+
+
+ </form>
+</body>
+</html>

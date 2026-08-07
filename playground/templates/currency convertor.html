@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+      <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'playground/currency convertors.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<form method="Post">
+    {% csrf_token %}
+<h3 id="c"><a href="{% url 'navigations' %}" title="go back"><</a> Currency Convertor</h3>
+    <div class="a">
+    <label for="amount">Enter:</label>
+    <input type="number" id="amount" name="amount"  step="any" required  >
+    </div>
+    <div class="a">
+    <label for="from">From:</label>
+    <select id="from" name="from" required>
+        <option selected hidden></option>
+        <option value="USD">USD</option>
+        <option value="PKR">PKR</option>
+        <option value="EUR">EUR</option>
+        <option value="SAR">SAR</option>
+        <option value="JPY">JPY</option>
+        <option value="KWD">KWD</option>
+        <option value="GBP">GBP</option>
+        <option value="INR">INR </option>
+        <option value="RUB">RUB</option>
+         <option value="TRY">TRY</option>
+    </select>
+    </div>
+    <div class="a" id="b">
+    <label for="to">To:</label>
+    <select id="to" name="to" required>
+        <option selected hidden></option>
+        <option value="USD">USD</option>
+        <option value="PKR">PKR</option>
+        <option value="EUR">EUR</option>
+        <option value="SAR">SAR</option>
+        <option value="JPY">JPY</option>
+          <option value="KWD">KWD</option>
+        <option value="GBP">GBP</option>
+        <option value="INR">INR </option>
+        <option value="RUB">RUB</option>
+        <option value="TRY">TRY</option>
+    </select>
+    </div>
+    <div class="i">
+    <button type="submit">Convert</button>
+    <h3 id="result">Results:{{results}}</h3>
+    </div>
+</form>
+</div>
+</body>
+</html>
