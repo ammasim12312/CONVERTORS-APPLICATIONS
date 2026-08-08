@@ -82,7 +82,7 @@ header{
     padding: 10px 20px;
     white-space: nowrap;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
     .navbar ul{
@@ -98,7 +98,7 @@ header{
     }
 
     .navbar a{
-        padding: 15px ;
+        padding: 19px ;
         font-size: 0.9em;
     }
 }
