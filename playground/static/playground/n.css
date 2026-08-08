@@ -71,17 +71,20 @@ header{
     align-items:center;
 }
 @media (max-width: 768px) {
-    header{
-        width: 55%;
-        max-width: 160px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        border-radius: 15px;
-        font-size: 1.8em;
-        padding: 6px;
-        white-space: nowrap;
-    }
+ css
+header{
+    width: fit-content;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    padding: 10px 20px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
 
     .navbar ul{
         width: 95%;
