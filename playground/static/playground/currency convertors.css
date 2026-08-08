@@ -99,7 +99,10 @@ button{
       #c a{
             text-align:center;
       }
-      select,input,button,label,#results{
+      button,label,#results{
       margin-right:60px;
 }
+      button{
+            margin-left:50px;
+      }
 }
