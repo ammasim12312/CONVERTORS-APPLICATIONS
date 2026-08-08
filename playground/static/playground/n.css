@@ -71,7 +71,6 @@ header{
     align-items:center;
 }
 @media (max-width: 768px) {
- css
 header{
     width: fit-content;
     max-width: 90%;
