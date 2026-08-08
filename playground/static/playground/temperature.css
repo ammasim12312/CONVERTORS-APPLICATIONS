@@ -113,47 +113,50 @@ input,select{
 @media (max-width: 768px) {
     #container {
         height: auto;
-        width: 90%;
+        width: 92%;
         margin: 20px auto;
-        font-size: 18px;
-        padding: 20px;
+        font-size: 16px;
+        padding: 15px;
     }
 
     .row{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         margin-left: 0;
-        gap: 5px;
+        margin-bottom: 12px;
+        gap: 4px;
     }
 
     label {
         width: auto;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     input,
     select{
-        width: 100%;
-        max-width: 250px;
-        height: 34px;
-        font-size: 16px;
+        width: 140px;
+        height: 30px;
+        font-size: 14px;
+        margin-bottom: 0;
     }
 
     #buttons {
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 0;
-        width: 100%;
+        padding: 6px 16px;
+        width: auto;
     }
 
     #converter {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     #results {
-        font-size: 18px;
+        font-size: 15px;
         margin-left: 0;
-        width: 90%;
-        max-width: 100%;
+        width: auto;
+        max-width: 90%;
+        padding: 6px 12px;
     }
 
     .top {
