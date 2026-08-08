@@ -114,63 +114,55 @@ input,select{
     #container {
         height: auto;
         width: 88%;
-        margin: 20px auto;
-        padding: 20px 15px;
+        margin: 10px auto 30px auto;
+        padding: 15px;
         font-size: 16px;
     }
 
     #converter {
-        font-size: 20px;
-        margin-bottom: 20px;
+        font-size: 18px;
+        margin-bottom: 15px;
     }
 
     .row{
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-        gap: 10px;
+        gap: 8px;
         margin-left: 0;
-        margin-bottom: 14px;
+        margin-bottom: 10px;
     }
 
     label {
-        width: 70px;
-        font-size: 14px;
+        width: 55px;
+        font-size: 13px;
         flex-shrink: 0;
     }
 
     input,
     select{
-        width: 130px;
-        height: 30px;
-        font-size: 14px;
+        width: 100px;
+        height: 26px;
+        font-size: 13px;
         margin-bottom: 0;
         flex-shrink: 0;
     }
 
     #buttons {
         display: block;
-        margin: 15px auto;
-        font-size: 15px;
-        padding: 6px 20px;
+        margin: 12px auto;
+        font-size: 16px;
+        padding: 8px 24px;
         width: auto;
+        font-weight: bold;
     }
 
     #results {
         display: block;
         width: fit-content;
         max-width: 85%;
-        margin: 15px auto 0 auto;
-        font-size: 15px;
-        padding: 8px 14px;
-        white-space: normal;
-    }
-
-    .top {
-        margin-bottom: 20px;
-    }
-
-    #converter a {
+        margin: 12px auto 0 auto;
         font-size: 18px;
+        padding: 10px 16px;
+        white-space: normal;
     }
 }
