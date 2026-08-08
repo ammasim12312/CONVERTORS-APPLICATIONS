@@ -129,7 +129,7 @@ input,select{
 
     #converter {
         font-size: 18px;
-        margin-bottom: 15px;
+        margin-bottom: 22px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -164,7 +164,7 @@ input,select{
 
     input,
     select{
-        width: 90px;
+        width: 75px;
         height: 26px;
         font-size: 13px;
         margin-bottom: 0;
@@ -174,17 +174,18 @@ input,select{
         display: block;
         margin: 15px auto;
         font-size: 14px;
-        padding: 5px 16px;
+        padding: 6px 20px;
         width: auto;
     }
 
     #results {
         display: block;
-        width: 70%;
-        max-width: 260px;
-        margin: 12px auto 0 auto;
-        font-size: 17px;
-        padding: 10px 14px;
+        width: 55%;
+        max-width: 200px;
+        margin: 15px auto 0 auto;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 8px 10px;
         text-align: center;
     }
 }
