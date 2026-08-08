@@ -72,11 +72,15 @@ header{
 }
 @media (max-width: 768px) {
     header{
-        width: 45%;
-        max-width: 130px;
+        width: 55%;
+        max-width: 160px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20px;
         border-radius: 15px;
+        font-size: 0.8em;
+        padding: 6px;
+        white-space: nowrap;
     }
 
     .navbar ul{
