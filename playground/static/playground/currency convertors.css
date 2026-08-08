@@ -99,10 +99,4 @@ button{
       #c a{
             text-align:center;
       }
-      button,label,#results{
-      margin-right:60px;
-}
-      button{
-            margin-left:50px;
-      }
 }
