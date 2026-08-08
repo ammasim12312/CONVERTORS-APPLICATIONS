@@ -70,3 +70,26 @@ header{
     display:flex;
     align-items:center;
 }
+@media (max-width: 768px) {
+    header{
+        width: 90%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar ul{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar li{
+        font-size: 1.1em;
+    }
+
+    .navbar a{
+        padding: 15px 0;
+        font-size: 0.9em;
+    }
+}
