@@ -110,3 +110,82 @@ body{
 input,select{
       margin-bottom:30px;
 }
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    #container {
+        height: auto;
+        width: 92%;
+        margin: 20px auto;
+        padding: 25px 15px;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+
+    #converter {
+        font-size: 18px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    #converter a {
+        font-size: 16px;
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 0;
+        margin-bottom: 24px;
+    }
+
+    label {
+        width: auto;
+        font-size: 15px;
+        flex-shrink: 0;
+        text-align: right;
+    }
+
+    input,
+    select{
+        width: 90px;
+        height: 28px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    #buttons {
+        display: block;
+        margin: 20px auto 15px auto;
+        font-size: 14px;
+        padding: 6px 22px;
+        width: auto;
+    }
+
+    #results {
+        display: block;
+        width: 70%;
+        max-width: 220px;
+        margin: 10px auto 0 auto;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 14px;
+        text-align: center;
+    }
+}
