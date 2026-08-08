@@ -95,6 +95,7 @@ button{
 @media(max-width:768px) {
       #c {
             white-space: nowrap;
+            font-size:28px;
       }
       #c a{
             text-align:center;
