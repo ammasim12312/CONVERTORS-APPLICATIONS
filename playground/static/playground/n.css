@@ -78,7 +78,7 @@ header{
         margin-right: auto;
         margin-top: 20px;
         border-radius: 15px;
-        font-size: 0.8em;
+        font-size: 1.8em;
         padding: 6px;
         white-space: nowrap;
     }
@@ -87,7 +87,7 @@ header{
         width: 95%;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 25px;
+        border-radius: 19px;
         overflow: hidden;
     }
 
@@ -96,7 +96,7 @@ header{
     }
 
     .navbar a{
-        padding: 15px 0;
+        padding: 15px ;
         font-size: 0.9em;
     }
 }
