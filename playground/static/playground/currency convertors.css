@@ -92,3 +92,14 @@ button{
 #b{
       margin-bottom:25px;
 }
+@media(max-width:768px) {
+      #c {
+            white-space: nowrap;
+      }
+      #c a{
+            text-align:center;
+      }
+      select,input,button,label,#results{
+      margin-right:60px;
+}
+}
