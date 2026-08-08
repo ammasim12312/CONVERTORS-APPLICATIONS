@@ -72,8 +72,8 @@ header{
 }
 @media (max-width: 768px) {
     header{
-        width: 60%;
-        max-width: 200px;
+        width: 45%;
+        max-width: 130px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 15px;
@@ -84,16 +84,15 @@ header{
         margin-left: auto;
         margin-right: auto;
         border-radius: 25px;
+        overflow: hidden;
     }
 
     .navbar li{
         font-size: 1.1em;
-        border-radius: 15px;
     }
 
     .navbar a{
         padding: 15px 0;
         font-size: 0.9em;
-        border-radius: 15px;
     }
 }
