@@ -113,6 +113,6 @@ input,select{
 @media (max-width: 768px) {
     #converter {
         white-space: nowrap;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 }
