@@ -100,5 +100,6 @@ header{
     .navbar a{
         padding: 19px ;
         font-size: 0.9em;
+        border-radius:10px;
     }
 }
