@@ -110,3 +110,9 @@ body{
 input,select{
       margin-bottom:30px;
 }
+@media (max-width: 768px) {
+    #converter {
+        white-space: nowrap;
+        font-size: 1.3em;
+    }
+}
