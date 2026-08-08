@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <title>My Website</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="{%  static 'playground/weight_convertor.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 
 <div class="container">
       <form method="Post">
-     <h1 id="convertor">Weight Convertor</h1>
+     <h1 id="convertor"><a href="{% url 'navigations' %}" title="go back"><</a>Weight Convertor</h1>
 
     {% csrf_token %}
 
