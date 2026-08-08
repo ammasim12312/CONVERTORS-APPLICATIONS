@@ -84,6 +84,7 @@ border-radius:20px;
     #convertor{
         white-space: nowrap;
         text-align:center;
+        font-size:28px;
     }
     #convertor a {
         text-align:center;
