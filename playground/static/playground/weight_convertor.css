@@ -4,7 +4,7 @@ body{
 .container{
   background-color: #28e6da;
     border:3px solid black;
-    padding:13px;
+    padding:10px;
     height:470px;
     border-radius:18px;
     display:flex;
@@ -77,7 +77,6 @@ border-radius:20px;
     margin-top: 30px;
     overflow: auto;
     white-space: nowrap;
-    fontweight:bold;
 
     font-family:none;
 }
