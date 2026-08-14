@@ -80,7 +80,7 @@ button{
       padding: 4px;
       text-align: center;
       background-color: white;
-      font-size: 32px;
+      font-size: 30px;
       max-width: 250px;
       margin-top:35px;
       margin-left:80px;
@@ -101,5 +101,8 @@ button{
       }
       #c a{
             text-align:center;
+      }
+      #results{
+            font-size:26px;
       }
 }
