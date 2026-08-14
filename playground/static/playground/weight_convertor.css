@@ -20,7 +20,7 @@ body{
     align-items:center;
     font-family:roboto;
     font-size:27px;
-    margin-left:65px;
+    margin-left:82px;
 }
 
 #convertor{
@@ -59,7 +59,7 @@ border-radius:20px;
     padding:4px 3px;
     font-size:16px;
     width:80px;
-    margin-left:185px;
+    margin-left:205px;
     background-color:white;
     text-align:center;
     margin-top:-100px;
@@ -67,18 +67,19 @@ border-radius:20px;
 }
 #results {
     border: 2px solid black;
-    border-radius: 20px;
-
-    background-color: white;
-    padding: 2px;
-    max-width: 200px;
+    border-radius: 18px;
+     font-size:26px;
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 200px;
     text-align: center;
-    margin-left: 69px;
+    margin-left: 86px;
     margin-top: 30px;
     overflow: auto;
     white-space: nowrap;
-    width: auto;
-    font-size: 28px;
+    fontweight:bold;
+
+    font-family:none;
 }
 @media (max-width:768px){
     #convertor{
