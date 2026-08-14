@@ -90,4 +90,7 @@ border-radius:20px;
     #convertor a {
         text-align:center;
     }
+    #results{
+        font-family:none;
+    }
 }
