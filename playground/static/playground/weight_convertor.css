@@ -67,10 +67,10 @@ border-radius:20px;
 }
 #results {
     border: 2px solid black;
-    border-radius: 18px;
-     font-size:26px;
+    border-radius: 20px;
+     font-size:30px;
     background-color: whitesmoke;
-    padding: 6px;
+    padding: 4px;
     width: 200px;
     text-align: center;
     margin-left: 86px;
