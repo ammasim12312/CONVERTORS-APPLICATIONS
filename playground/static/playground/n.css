@@ -1,8 +1,12 @@
 html {
     color-scheme: light only;
 }
-:root {
-    color-scheme: light;
+
+@media (prefers-color-scheme: dark) {
+    body, #container, input, select, header, .navbar, .navbar ul, .navbar li, #results, #buttons {
+        background-color: initial !important;
+        color: initial !important;
+    }
 }
 body{
     margin:0;
