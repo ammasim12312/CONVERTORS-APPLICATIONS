@@ -71,6 +71,9 @@ header{
     display:flex;
     align-items:center;
 }
+:root{
+    color-scheme:only light;
+}
 @media (max-width: 768px) {
     header{
         width: fit-content;

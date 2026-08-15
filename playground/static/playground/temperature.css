@@ -115,9 +115,6 @@ input,select{
         white-space: nowrap;
         font-size: 1.1em;
     }
-    #button{
-        position:relative;
-        left:500px;
-    }
+
 
 }
