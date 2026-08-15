@@ -1,3 +1,6 @@
+:root {
+    color-scheme: light;
+}
 body{
     margin:0;
     background-color:lightgrey;
@@ -67,12 +70,9 @@ header{
     width:20px;
     text-align:center;
 }
-.navbar{
-    display:flex;
-    align-items:center;
-}
-:root{
-    color-scheme:only light;
+.navbar {
+    display: flex;
+    align-items: center;
 }
 @media (max-width: 768px) {
     header{
